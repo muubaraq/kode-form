@@ -9,5 +9,138 @@
 </head>
 <body>
   
+  <header class="header">
+    <h1 class="form-heading"><span id="kode">Kode</span><span id="camp">Camp </span>registration</h1>
+    <p class="form-subhead">Please fill the form below to get on the KodeCamp train</p>
+  </header>
+
+<div class="form-div">
+    <form class="survey-from">
+     
+      <div class="firstname-div">
+        <label for="first-name" class="first-name">First Name <span>*</span></label>
+        <input type="text" id="first-name" placeholder="Enter your first name" required>
+        
+        <div class="lastname-div">
+        <label for="last-name" class="lastname">Last Name <span>*</span></label>
+        <input type="text" id="last-name" placeholder="Enter your last name" required>
+      </div>
+        
+        <div class="email-address">
+        <label for="email" class="Email">Email <span>*</span></label>
+        <input type="email" id="email" placeholder="Enter your email address" required>
+          
+          <div class="gender">
+        <label for="" id="gender">Gender <span>*</span></label>
+            <div class="name-div">
+        <label for="male">        <input type="radio" id="male" name="male-female">Male</label>
+         </div>
+             <div class="name-div">
+        <label for="female">        <input type="radio" id="female" name="male-female">Female</label>
+         </div>  
+            </div>
+ 
+          <div id="background">
+         <label for="education" id="educate">Educational background <span>*</span></label>
+        <div>
+          <select class="educa-input">
+            <option disabled>Select an option</option>
+            <option>High School</option>
+               <option>Undergraduate</option>
+               <option>Postgraduate</option>
+
+          </select>
+        </div>
+      </div>
+          
+     <div class="laptop">
+        <label for="" id="lappy">Do you have a laptop? <span>*</span></label>
+            <div class="do-you">
+        <label for="yes">        <input type="radio" id="yes" name="yes-no">Yes</label>
+         </div>
+             <div class="do-you">
+        <label for="no">        <input type="radio" id="no" name="yes-no">No</label>
+         </div>  
+            </div>
+          
+           <div class="about-us">
+        <label for="" id="heard">How did you hear about KodeCamp? <span>*</span></label>
+             
+            <div class="social-network">
+        <label for="friends">        <input type="checkbox" id="friends" name="social-media">Friends</label>
+         </div>
+             <div class="social-network">
+        <label for="social">        <input type="checkbox" id="social" name="social-media">Social media</label>
+         </div>  
+             <div class="social-network">
+        <label for="linked">        <input type="checkbox" id="linked" name="social-media">Linkedin</label>
+         </div>  
+             
+             <div class="social-network">
+        <label for="google">        <input type="checkbox" id="google" name="social-media" checked>Google</label>
+         </div>  
+             
+             <div class="social-network">
+        <label for="twitter">        <input type="checkbox" id="twitter" name="social-media">Twitter</label>
+         </div>  
+             <div class="social-network">
+        <label for="others">        <input type="checkbox" id="others" name="social-media">Others</label>
+         </div>  
+            </div>
+          
+          <div id="track-select">
+         <label for="track-head" id="track-choose">What track are you registering for? <span>*</span></label>
+        <div>
+          <select class="track-options">
+            <option disabled>Select your track</option>
+            <option>Android(Kotlin)</option>
+               <option>UI/UX</option>
+               <option>React</option>
+                                <option>Vue</option>              <option>Node.js</option>
+                           <option>Python</option>
+                           <option>Digital Marketing</option>
+            <option>Prouct Management</option>
+            <option>Front End web Develpment (html, Css, Javascript)</option>
+                        <option>Entrepreneurship</option>        
+          </select>
+        </div>
+      </div>
+                    
+     <div class="level">
+        <label for="" id="your-level">What level are you on? <span>*</span></label>
+            <div class="level-up">
+        <label for="beginner">        <input type="radio" id="beginner" name="level-one-two">Beginner</label>
+         </div>
+             <div class="level-up">
+        <label for="intermediate">        <input type="radio" id="intermediate" name="level-one-two">Intermediate</label>
+         </div>  
+            </div>
+          <div class="yourself">
+            <label id="your-self">Tell us about yourself <span>*</span></label>
+            <textarea placeholder="in 300 words or less..." maxlength="300"></textarea>
+          </div>
+          
+          <div id="country-select">
+         <label for="country-head" id="country-choose">Select your country <span>*</span></label>
+        <div>
+          <select class="country-options">
+            <option disabled>Select your country</option>
+            <option>Nigeria</option>
+               <option>Uganda</option>
+               <option>South Africa</option>
+                                <option>Kenya</option>              <option>Rwanda</option>
+                           <option>Seychelles</option>
+                           <option>Cape verde</option>
+            <option>Ethiopia</option>
+            <option>Ghana</option>    
+                        <option>Senegal</option>    
+          </select>
+        </div>
+      </div>
+          <div class="button-edit">
+            <button type="submit">Submit</button>
+          </div>
+    </form>
+  </div>
 </body>
 </html>
